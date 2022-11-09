@@ -1,0 +1,25 @@
+* {
+    font-family: calibri;
+}
+
+body {
+    margin: 0;
+}
+
+.wrapper {
+    margin: auto;
+    width: fit-content;
+}
+
+table {
+    background-color: #F2F3F5;
+    padding: 20px;
+}
+
+h1 {
+    color: #A34DE4;
+}
+
+button {
+    background-color: #0C96F1;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 2</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Dong gop y kien ve san pham</h1>
+        <form id="customer-form" action="" onsubmit="return check()">
+            <table>
+                <tr>
+                    <td>
+                        <input id="customer-name" type="text" placeholder="Ho va ten" required>
+                    </td>
+                    <td>
+                        <input id="customer-id" type="text" placeholder="Ma the" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input id="customer-tel" type="tel" placeholder="So dien thoai">
+                    </td>
+                    <td>
+                        <input id="customer-mail" type="email" placeholder="E-mail">
+                    </td>
+                </tr>            
+                <tr>
+                    <td>
+                        <select name="customer-type" id="customer-type">
+                            <option value="normal">Thuong</option>
+                            <option value="VIP">VIP</option>
+                            <option value="VVIP">VVIP</option>
+                        </select>
+                    </td>
+                    <td>
+                        <input id="receipt-id" type="text" required>
+                    </td>
+                </tr>            
+                <tr>
+                    <td colspan="2">
+                        <textarea name="" id="customer-complain" cols="50" rows="10"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input id="submit" type="submit" value="Gui y kien">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

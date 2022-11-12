@@ -1,0 +1,90 @@
+:root {
+    --purple-dark: #432C7A;
+    --purple: #80489C;
+    --pink: #FF8FB1;
+    --peach-light: #FCE2DB;
+
+    --red-error: #FF1700;
+}
+
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: var(--purple-dark);
+    color: var(--purple-dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 15rem;
+    max-width: 100%;
+    overflow: hidden;
+    background-color: var(--peach-light);
+    border: 0.1rem solid var(--peach-light);
+    border-radius: 0.4rem;
+}
+
+.form-header {
+    border-bottom: 0.1rem solid var(--purple-dark);
+    padding: 0.5rem 1rem;
+}
+
+.form-header h2 {
+    margin: 0;
+}
+
+.form {
+    padding: 1rem 1rem;
+}
+
+.form-control {
+    margin-bottom: 0.2rem;
+    padding-bottom: 0.2rem;
+}
+
+.form-control label {
+    display: inline-block;
+    margin-bottom: 0.3rem;
+}
+
+.form-control input {
+    border: 0.12rem solid var(--purple);
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    padding: 0.2rem;
+    width: 100%;
+    display: block;
+}
+
+.form-control input:focus {
+    border-color: var(--purple-dark);
+    outline: none;
+}
+
+.form-control.error input {
+    border-color: var(--red-error);
+}
+
+button {
+    background-color: var(--purple-dark);
+    border: 0.3rem solid var(--purple-dark);
+    border-radius: 0.4rem;
+    color: var(--peach-light);
+    font-size: 1rem;
+    padding: 0 1rem;
+    margin-top: 0.8rem;
+    margin-bottom: 0.5rem;
+}
+
+button:hover {
+    background-color: var(--purple);
+    border-color: var(--purple);
+    cursor: pointer;
+}

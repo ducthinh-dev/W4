@@ -54,4 +54,28 @@ body {
 
 .body a button:hover {
     background-color: var(--brown);
+    cursor: pointer;
+}
+
+.footer {
+    border-top: 2px solid var(--brown--dark);
+    padding: 10px 40px;
+}
+
+a {
+    text-decoration: none;
+    font-style: italic;
+    color: var(--brown-light);
+}
+
+.footer a {
+    margin: 0 10px;
+}
+
+.footer a:visited {
+    color: var(--brown-light);
+}
+
+.footer a:hover {
+    color: var(--brown--dark);
 }
